@@ -14,23 +14,37 @@
     width: 100%;
 }
 .navigator .navigator-list{
-    margin-left: 20px;
+    margin-left: 24px;
 }
 .navigator .navigator-list li{
-    box-sizing: border-box;
+    position: relative;
     float: left;
+    display: inline-block;
+    box-sizing: border-box;
+   
+    
+}
+.navigator .navigator-list li a{
     padding: 15px;
     list-style-type: none;
     font-size: 18px;
-    position: relative;
     color: white;
     background-color: black;
-    
+    text-decoration: none;
+    line-height: 56px;
 }
 
-.navigator .navigator-list li:hover{
+   
+
+.navigator .navigator-list li a:hover{
    color: black;
    background-color: #ccc;
+}
+.project-nav{
+    list-style-type: none;
+}
+.project-nav li{
+    display: block;
 }
 .content{
     padding-right: 42px;
