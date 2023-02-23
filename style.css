@@ -2,10 +2,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: azure;
+    font-family: cursive;
 }
 
-.title{
-    height: 40px;
-    background-color: grey;
-    color: black;
+.navigator{
+    top:0px;
+    position: fixed;
+    background-color: black;
+    height: 56px;
+    width: 100%;
+}
+.navigator .navigator-list{
+    margin-left: 20px;
+}
+.navigator .navigator-list li{
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    list-style-type: none;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    background-color: black;
+    
+}
+
+.navigator .navigator-list li:hover{
+   color: black;
+   background-color: #ccc;
+}
+.content{
+    padding-right: 42px;
+    padding-left: 42px;
+    margin-top: 182px;
+    text-align: center;
+    font-size: 24px;
+}
+.description{
+    margin-top: 52px;
 }
