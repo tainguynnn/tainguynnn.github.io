@@ -41,9 +41,36 @@
    background-color: #ccc;
 }
 .project-nav{
+    display: none;
     list-style-type: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    
 }
 .project-nav li{
+    display: block;
+    float: none;
+    width: 100%;
+    background-color: black;
+}
+
+.project-nav li a{
+    width: 100%;
+    
+        
+}
+
+.project-nav li:hover{
+    background-color:#ccc ;
+    color: black;
+}
+
+
+
+
+.navigator-list li:hover >ul{
     display: block;
 }
 .content{
