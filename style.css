@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     background-color: azure;
-    
 }
 
 .navigator{
@@ -13,16 +12,17 @@
     height: 56px;
     width: 100%;
 }
+
 .navigator .navigator-list{
     margin-left: 24px;
 }
+
 .navigator .navigator-list li{
     position: relative;
     float: left;
     display: inline-block;
-    box-sizing: border-box;
-   
-    
+    box-sizing: border-box;  
+        
 }
 .navigator .navigator-list li a{
     padding: 15px;
@@ -34,15 +34,14 @@
     line-height: 56px;
 }
 
-   
-
 .navigator .navigator-list li a:hover{
    color: black;
    background-color: #ccc;
 }
+
 .project-nav{
     display: none;
-    list-style-type: none;
+   
     position: absolute;
     width: 100%;
     text-align: center;
@@ -51,15 +50,13 @@
 }
 .project-nav li{
     display: block;
-    float: none;
     width: 100%;
     background-color: black;
 }
 
 .project-nav li a{
-    width: 100%;
     
-        
+    width: 100%;
 }
 
 .project-nav li:hover{
@@ -67,19 +64,17 @@
     color: black;
 }
 
-
-
-
 .navigator-list li:hover >ul{
     display: block;
 }
+
 .content{
-    padding-right: 42px;
-    padding-left: 42px;
+    padding: 0 42px;
     margin-top: 182px;
     text-align: center;
     font-size: 24px;
 }
+
 .description{
     margin-top: 52px;
 }
